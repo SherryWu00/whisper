@@ -1,0 +1,65 @@
+
+body {
+    background: #2b0102 url('umbrella.jpg');
+    color: rgb(240, 0, 2);
+    font-family: Arial, Segoe UI, serif;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*overflow: hidden;*/
+    z-index: 0;
+
+}
+
+input {
+    font-family: Arial, Sans-Serif, serif;
+    color: rgb(240, 0, 2);
+    border: none;
+    BACKGROUND-COLOR: transparent;
+}
+
+textarea {
+    width: 280px;
+    height: 200px;
+    font-family: Arial, Sans-Serif, serif;
+    color: rgb(240, 0, 2);
+    BACKGROUND-COLOR: transparent;
+}
+#rc{
+    width: 350px;
+}
+.r {
+    width: 280px;
+    height: 80px;
+    font-family: Arial, Sans-Serif, serif;
+    color: rgb(240, 0, 2);
+    border: none;
+    float: left;
+    BACKGROUND-COLOR: transparent;
+}
+
+button {
+    padding: 3px;
+    text-decoration: none;
+    font-family: Hardreq, monospace;
+    border: none;
+    background-color: rgb(240, 0, 2);
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    /*color: #000;*/
+    /*background-color: #adfb8b;*/
+    text-decoration: none;
+    font-family: Hardreq, monospace;
+    border: none;
+    color: rgb(240, 0, 2);
+    background-color: rgb(255, 255, 255);
+}

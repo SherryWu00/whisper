@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Say Something</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="en/crypto-js.js"></script>
+    <script type="text/javascript" src="whisper.js"></script>
+</head>
+
+<body>
+
+<div id="AccessGranted" style="display:none;"><h1>ACCESS GRANTED</h1></div>
+<div id="AccessDenied" style="display:none;"><h1>ACCESS DENIED</h1></div>
+
+
+<div id="console">
+
+    <br><br>
+
+    <div id="watch">--:--</div>
+
+    <br><br>
+
+    NSIS Secure Systems v1.00.1.1
+
+    <br><br>
+
+    User@NSIS >
+    <label for="un"></label><input type="text" id="un">
+
+    <br><br>
+
+    <div id="cd_div" style="display: none;">
+        INPUT THE CODE >
+        <label for="cd"></label><input type="password" id="cd">
+    </div>
+
+    <br>
+
+    <div id="cd_div_repeat" style="display: none;">
+        REPEAT THE CODE >
+        <label for="cd_repeat"></label><input type="password" id="cd_repeat">
+    </div>
+
+    <br><br>
+
+
+    <div id="rc">
+    </div>
+
+    <br><br>
+
+    <div id="d_text_e" style="display: none;">
+        <label for="d_text"></label><textarea id="d_text">
+            </textarea>
+    </div>
+
+    <script>
+        $("#un").focus();
+        Notification.requestPermission(function (status) {
+            if (status === "granted") {
+                // nothing
+            } else {
+                // alert("禁止了通知消息可能!");
+            }
+        });
+    </script>
+
+</div>
+
+
+</body>
+</html>
